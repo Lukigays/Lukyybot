@@ -1,14 +1,14 @@
 const chalk = require("chalk")
 const fs = require("fs")
 
-global.ownerNumber = ["6287705048235@s.whatsapp.net"]
-global.nomerOwner = "6287705048235"
-global.nomorOwner = ['6287705048235']
-global.nameGEDE = "KIRBOTZ"
-global.namaDeveloper = "KirBotz"
-global.namaBot = "KirBotz WhatsApp"
+global.ownerNumber = ["62895347158464@s.whatsapp.net"]
+global.nomerOwner = "62895347158464"
+global.nomorOwner = ['62895347158464']
+global.nameGEDE = "LUKYYBOTZ"
+global.namaDeveloper = "LukyyBotz"
+global.namaBot = "LukyyBotz WhatsApp"
 global.packname = ""
-global.author = "Sticker By KirBotz"
+global.author = "Sticker By kyyBotz"
 global.thumb = fs.readFileSync("./thumb.png")
 
 let file = require.resolve(__filename) 
