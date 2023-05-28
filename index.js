@@ -13,8 +13,8 @@ const color = (text, color) => { return !color ? chalk.green(text) : chalk.keywo
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 const connectToWhatsApp = () => {
-const client = makeWASocket({ logger: pino ({ level: 'silent' }), printQRInTerminal: true, auth: state, browser: ["Bug Simple KirBotz", "Dekstop", "3.0"]})
-console.log(color('[ Base Ori KirBotz ]\n', 'red'),color('\nInfo Script :\n➸ Baileys : Multi Device\n➸ Nama Script : KirBotz-MD\n➸ Creator : KirBotz\n\nFollow My Social Media Account All Yes :\n➸ My Youtube : KirBotz`\n➸ My Instagram : @kirbotz01\n➸ My Github : KirBotz\n\nDonase Me For Support :\n➸ Dana : 085798145596\n➸ Shopeepay : 085798145596\n➸ Gopay : 087705048235\n➸ Ovo : 087705048235\n\nThanks\n', 'red'))
+const client = makeWASocket({ logger: pino ({ level: 'silent' }), printQRInTerminal: true, auth: state, browser: ["Bug Simple LukyyBotz", "Dekstop", "3.0"]})
+console.log(color('[ Base Ori KirBotz ]\n', 'red'),color('\nInfo Script :\n➸ Baileys : Multi Device\n➸ Nama Script : KirBotz-MD\n➸ Creator : LukyyBotz\n\nFollow My Social Media Account All Yes :\n➸ My Youtube : lukyyWell`\n➸ My Instagram : @lukyyketche\n➸ My Github : Lukigays\n\nDonase Me For Support :\n➸ Dana : 085785801903\n➸ Shopeepay : 0895347158464\n➸ Gopay : 0895347158464\n➸ Ovo : Tidak ada\n\nThanks\n', 'red'))
 
 store.bind(client.ev)
 
